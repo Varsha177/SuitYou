@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="7dp" >
+
+        <TextView
+            android:id="@+id/dress_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
+    		android:textSize="15dp"
+            android:text="Medium Text"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+        <TextView
+            android:id="@+id/brand_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/dress_name"
+            android:padding="2dp"
+    		android:textSize="13dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/price_amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/brand_name"
+	        android:padding="2dp"
+    		android:textSize="13dp"
+            android:text="TextView" />
+        
+        
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="100px"
+            android:layout_height="100px"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/textView3"
+            android:src="@drawable/ic_dress1" />
+
+    </RelativeLayout>

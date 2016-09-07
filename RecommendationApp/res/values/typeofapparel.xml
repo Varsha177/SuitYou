@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="typeofapparel_prompt">Choose Type of Apparel</string>
+    <string-array name="typeofapparel_array">
+        <item>Dresses</item>
+        <item>Tops</item>
+        <item>Bottoms</item>
+    </string-array>
+</resources>

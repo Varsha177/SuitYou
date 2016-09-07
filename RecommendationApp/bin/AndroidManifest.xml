@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.test.shop"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="8" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <activity
+            android:name=".RecommendationAppActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            
+             <intent-filter>
+                <action android:name="android.intent.action.ONE" />
+                <category android:name="android.intent.category.DEFAULT" />
+
+            </intent-filter>
+            
+            <intent-filter>
+                <action android:name="android.intent.action.DRESSES" />
+                <category android:name="android.intent.category.DEFAULT" />
+
+            </intent-filter>
+            
+             <intent-filter>
+                <action android:name="android.intent.action.TOPS" />
+                <category android:name="android.intent.category.DEFAULT" />
+
+            </intent-filter>
+            
+            <intent-filter>
+                <action android:name="android.intent.action.BOTTOMS" />
+                <category android:name="android.intent.category.DEFAULT" />
+
+            </intent-filter>
+            
+        </activity>
+        
+         <activity
+            android:name=".ClothesOne"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.CLOTHESONE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            
+
+        </activity>
+        
+         <activity
+            android:name=".Dresses"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.DRESSES" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            
+
+        </activity>
+        
+         <activity
+            android:name=".Tops"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.TOPS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            
+
+        </activity>
+        
+         <activity
+            android:name=".Bottoms"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOTTOMS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            
+
+        </activity>
+        
+                 
+         <activity
+            android:name=".Recommendation"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.RECOMMENDATION" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            
+
+        </activity>
+        
+    </application>
+
+</manifest>
